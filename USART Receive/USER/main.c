@@ -60,7 +60,7 @@ void GPIO_Config(void){
 	gpio.GPIO_Mode = GPIO_Mode_AF_PP;
 	GPIO_Init(GPIOA, &gpio);
 	//Configuration for PA10: Input Floating
-	gpio.GPIO_Pin = GPIO_Pin_0;
+	gpio.GPIO_Pin = GPIO_Pin_10;
 	gpio.GPIO_Mode = GPIO_Mode_IN_FLOATING;
 	GPIO_Init(GPIOA, &gpio);
 	//Configuration for PC13: Output Push-Pull
