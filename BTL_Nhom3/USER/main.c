@@ -45,7 +45,7 @@ uint8_t startScan;
 uint8_t currentDigit = 1;
 uint8_t checkNumber = 0;
 uint32_t start;
-int maxTime = 1600;
+int maxTime = 2000;
 uint8_t maxTimeFlag = 0;
 int minTime = 40;
 uint8_t minTimeFlag = 0;
