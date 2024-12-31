@@ -12,7 +12,7 @@ void Delay(uint32_t ms) {
 	}
 }
 
-void LED7_Write(uint8_t tens, uint32_t units) {
+void LED7_Write(uint8_t tens, uint8_t units) {
     CONTROL_PORT = 0xFE;
     SEGMENT_PORT = segment_data[tens];
     Delay(5);
